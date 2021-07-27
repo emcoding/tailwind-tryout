@@ -1,0 +1,14 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+
+.red-card {
+  @apply bg-red-500 my-4 w-3/4 mx-auto p-4;
+}
+//body {
+//  color: darkseagreen;
+//}
+body {
+  @apply text-red-500
+}
