@@ -1,9 +1,9 @@
 <p id="notice"><%= notice %></p>
-<div class="container flex flex-wrap text-blue-800" >
+<div class="container flex-column flex-wrap text-red" >
 
 <h1 class="red-card">Things</h1>
 
-<table>
+<table >
   <thead>
     <tr>
       <th colspan="3"></th>
@@ -12,7 +12,7 @@
 
   <tbody>
     <% @things.each do |thing| %>
-      <tr>
+      <tr class="border-green">
         <td><%= thing.title %></td>
         <td><%= link_to 'Show', thing %></td>
         <td><%= link_to 'Edit', edit_thing_path(thing) %></td>
@@ -24,5 +24,5 @@
 
 <br>
 
-<%= link_to 'New Thing', new_thing_path %>
+<%= link_to 'New Thing', new_thing_path, class: "text-red-700" %>
 </div>

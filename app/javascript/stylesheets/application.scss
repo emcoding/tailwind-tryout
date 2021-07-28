@@ -1,14 +1,12 @@
-@import "tailwindcss/base";
-@import "tailwindcss/components";
-.red-card {
-  @apply bg-red-500 my-4 w-3/4 mx-auto p-4;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+//.red-card {
+//  @apply bg-red-500 my-4 w-3/4 mx-auto p-4;
+//}
+
+body {
+  @apply text-green-700
 }
-//body {
-//  @apply text-red-500
-//}
-@import "tailwindcss/utilities";
-
-
-//body {
-//  color: darkseagreen;
-//}
