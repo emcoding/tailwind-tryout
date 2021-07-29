@@ -10,17 +10,17 @@
     </tr>
   </thead>
 
-  <tbody>
-    <% @things.each do |thing| %>
-      <tr class="border-green">
-        <td><%= thing.title %></td>
-        <td><%= link_to 'Show', thing %></td>
-        <td><%= link_to 'Edit', edit_thing_path(thing) %></td>
-        <td><%= link_to 'Destroy', thing, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+    <tbody>
+      <% @things.each do |thing| %>
+        <tr class="border-green">
+          <td><%= thing.title %></td>
+          <td><%= link_to 'Show', thing %></td>
+          <td><%= link_to 'Edit', edit_thing_path(thing) %></td>
+          <td><%= link_to 'Destroy', thing, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        </tr>
+      <% end %>
+    </tbody>
+  </table>
 
 <br>
 
