@@ -3,10 +3,18 @@
 @tailwind utilities;
 
 
-.red-card {
-  @apply bg-red-500 my-4 w-3/4 mx-auto p-4;
+@layer base {
+  html {
+    @apply font-sans;
+  }
+  h1 {
+    @apply text-2xl font-headline;
+  }
+  h2 {
+    @apply text-xl font-headline;
+  }
 }
 
-body {
-  @apply font-sans;
+.red-card {
+  @apply bg-red-500 my-4 w-3/4 mx-auto p-4;
 }
