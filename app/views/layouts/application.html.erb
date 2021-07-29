@@ -12,6 +12,12 @@
   </head>
 
   <body>
-    <%= yield %>
+   <%= render partial: "/layouts/TWShell.html.erb"  %>
+<!--   Extracted out of the TW code-->
+   <main>
+     <div class="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
+       <%= yield %>
+     </div>
+   </main>
   </body>
 </html>

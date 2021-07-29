@@ -1,14 +1,17 @@
 <p id="notice"><%= notice %></p>
-<div class=" text-red-600 mt-18 mx-auto" >
+<div class=" text-blue-600 mt-18 flex flex-col" >
 
-  <h1 class="red-card title-font">Things</h1>
 
-<table >
-  <thead>
-    <tr>
-      <th colspan="3"></th>
-    </tr>
-  </thead>
+  <!--
+  <<<<<< align flex children here -->
+  <h1 class="red-card font-headline">Things</h1>
+
+  <table class="bg-gray-200 mx-auto" >
+    <thead>
+      <tr>
+        <th colspan="3"></th>
+      </tr>
+    </thead>
 
     <tbody>
       <% @things.each do |thing| %>
@@ -22,7 +25,6 @@
     </tbody>
   </table>
 
-<br>
 
-<%= link_to 'New Thing', new_thing_path, class: "text-red-700" %>
+  <%= link_to 'New Thing', new_thing_path, class: "text-red-700 mt-20 mx-auto" %>
 </div>
