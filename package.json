@@ -2,6 +2,7 @@
   "name": "weird-scaffolding",
   "private": true,
   "dependencies": {
+    "@fontsource/amita": "^4.5.0",
     "@fontsource/inter": "^4.5.0",
     "@rails/actioncable": "^6.0.0",
     "@rails/activestorage": "^6.0.0",

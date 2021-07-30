@@ -885,6 +885,11 @@
   resolved "https://registry.yarnpkg.com/@csstools/convert-colors/-/convert-colors-1.4.0.tgz#ad495dc41b12e75d588c6db8b9834f08fa131eb7"
   integrity sha512-5a6wqoJV/xEdbRNKVo6I4hO3VjyDq//8q2f9I6PBAvMesJHFauXDorcNCsr9RzvsZnaWi5NYCcfyqP1QeFHFbw==
 
+"@fontsource/amita@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/amita/-/amita-4.5.0.tgz#2971168ef07c7833a3af8ce726a99aa3e838160e"
+  integrity sha512-IbvpyNmQurlWALPoMkCZBXeUd0aIeBVjA0Y+4Zfz8bc5TQGdtOhRWuTG7gCPtF4Znabz3foJIte06QouC5Ef/A==
+
 "@fontsource/inter@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.5.0.tgz#b99e49fa178e4086250fb3df2ed6a7366c9a0cb5"

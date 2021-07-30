@@ -7,7 +7,8 @@
     @apply font-sans;
   }
   h1 {
-    @apply text-2xl font-headline;
+    @apply text-2xl text-green-600;
+    //font-family: Amita;
   }
   h2 {
     @apply text-xl font-headline;
