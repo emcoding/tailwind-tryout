@@ -9,7 +9,8 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        headline: ["Amita"],
+        headline: "Catamaran",
+        secondhead: "Amita",
         sans: ["Inter var", 'sans-serif'], //var, bc of a problem for some mac users
       },
     },

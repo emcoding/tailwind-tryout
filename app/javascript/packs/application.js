@@ -10,6 +10,7 @@ import "channels"
 import "stylesheets/application"
 import "@fontsource/inter"
 import "@fontsource/amita"
+import "@fontsource/catamaran"
 
 
 Rails.start()

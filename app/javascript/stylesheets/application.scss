@@ -7,11 +7,11 @@
     @apply font-sans;
   }
   h1 {
-    @apply text-2xl text-green-600;
+    @apply text-2xl text-green-600 font-headline;
     //font-family: Amita;
   }
   h2 {
-    @apply text-xl font-headline;
+    @apply text-xl font-secondhead text-red-600;
   }
 }
 

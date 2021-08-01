@@ -890,6 +890,11 @@
   resolved "https://registry.yarnpkg.com/@fontsource/amita/-/amita-4.5.0.tgz#2971168ef07c7833a3af8ce726a99aa3e838160e"
   integrity sha512-IbvpyNmQurlWALPoMkCZBXeUd0aIeBVjA0Y+4Zfz8bc5TQGdtOhRWuTG7gCPtF4Znabz3foJIte06QouC5Ef/A==
 
+"@fontsource/catamaran@^4.5.0":
+  version "4.5.0"
+  resolved "https://registry.yarnpkg.com/@fontsource/catamaran/-/catamaran-4.5.0.tgz#149554b2b027a044d02f03fefcd5d12ee5b6ef0c"
+  integrity sha512-ov4yMcJmPX0mDewH7b1XgsnCGBz/vM1soOCNlGQVNajPFo0gPCGWnYvupyl7vmULWegADZsBECLA3ArZko4NhQ==
+
 "@fontsource/inter@^4.5.0":
   version "4.5.0"
   resolved "https://registry.yarnpkg.com/@fontsource/inter/-/inter-4.5.0.tgz#b99e49fa178e4086250fb3df2ed6a7366c9a0cb5"
